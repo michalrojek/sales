@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Avenir Next LT Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir Next LT Pro Bold'), url('../fonts/AvenirNextLTPro-Bold.woff') format('woff');
+}
+
+.navbar {
+    background-color: #b2b8c4;
+    border-color: #d0d0d0;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar li a{
+    padding: 15px 12px;
+    color: #010000 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar li a:hover{
+    color: #ffffff !important;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-family: 'Avenir Next LT Pro Bold', Helvetica, sans-serif !important;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif !important;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.procedure-desc {
+    padding: 0 25%;
+}
+
+label {
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif !important;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
+
+input {
+    border: 2px solid #65ad3f !important;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6) !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6) !important;
+}
+
+textarea {
+    border: 2px solid #65ad3f !important;
+    font-size: 14px;
+}
+
+textarea:focus {
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6) !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6) !important;
+}
+
+button {
+    background: #18391e !important;
+    color: #fff;
+}
+
+button:hover {
+    background: #000 !important;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.client button {
+    margin: auto;
+}
+
+.form-button {
+    margin: auto;
+}
+
+.add_field_button, .add_bodypart_button {
+    display: block;
+    margin: 20px auto;
+}
+
+.procedures-list li a {
+    color: #24890d;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif !important;    
+}
+
+.procedures-list li a:hover {
+    color: #18391e;
+}
+
+.procedure-info img {
+    width: 30%;
+    height: 30%;
+}
+
+.client-info {
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid #24890d;
+}
+
+.center-input {
+    display: inline-block;
+    height: 10px;
+    border: 1px solid red;
+    margin: 0 -2px;
+    float: none
+}
+.procedure-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.procedure-info .procedure-img {
+    width: 100%;
+}
+
+.peopleCount {
+    font-size: 20px;
+    text-align: center;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: inherit !important;
+  -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
