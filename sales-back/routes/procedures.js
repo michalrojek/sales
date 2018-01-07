@@ -106,11 +106,11 @@ router.get('/getCurrentProcedure', function(req,res){
 });
 
 router.get('/clientPhoto/:filename', function(req ,res) {
-    res.sendFile( path.resolve(__dirname + "../uploads/"+req.params.filename));
+    res.sendFile( path.resolve("/root/sales/sales-back/uploads/"+req.params.filename));
 });
 
 router.get('/procedurePhoto/:filename', function(req ,res) {
-    res.sendFile( path.resolve(__dirname + "../uploads/"+req.params.filename));
+    res.sendFile( path.resolve("/root/sales/sales-back/uploads/"+req.params.filename));
 });
 
 router.post('/addProcedure', upload.single("inputProcedurePicture"), function(req, res){
